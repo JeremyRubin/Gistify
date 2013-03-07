@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Gistify : A utility to add gist creation to finder on mac." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Gistify</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/JeremyRubin/Gistify">View on GitHub</a>
+
+          <h1 id="project_title">Gistify</h1>
+          <h2 id="project_tagline">A utility to add gist creation to finder on mac.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/JeremyRubin/Gistify/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/JeremyRubin/Gistify/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>Check out Gistify</h3>
+
+<p>Gistify is a simple utility to post gists from text files in finder.</p>
+
+<p>If you want to use it, just Download the source and put the service into your </p>
+
+<pre><code>/Users/Username/Library/Services
+</code></pre>
+
+<p>directory. If that fails, you can try importing through automator or just paste the source into an automator shell script with the following settings:
+Service receives selected files or folders in finder
+pass input as arguments.</p>
+
+<h3>TODO:</h3>
+
+<p>There's much to be improved on this! For one, it would be nice to have the ability to post with auth instead of anonymous, and currently automator has a bug which prevents me from using the file name from sys.argv as the file name in the json.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Gistify maintained by <a href="https://github.com/JeremyRubin">JeremyRubin</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
